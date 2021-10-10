@@ -1,0 +1,677 @@
+.D3{
+    border: groove 10px rgb(136, 118, 118);
+    padding: 0.2em;
+    width: 50%;
+    border-radius: 20%;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bigboxD1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D5 img{
+    border-radius: 25%;
+    max-width: 100%;
+    height: auto;
+}
+.bigboxD2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D6{
+    border: groove 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+    resize: both;
+    overflow: auto;
+    height: auto;
+}
+.bigboxD3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D7{
+    border: hidden 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 50%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+}
+.D7 img{
+    width: 100%;
+    height: auto;
+}
+.D2{
+    width: auto;
+}
+.D2 img{
+    width: 100%;
+    height: auto;
+}
+.bigboxD4{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.D9{
+    border: hidden 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+}
+footer{
+    background-image: url(23.jpg);
+    
+}
+.D8{
+    float: left;
+    width: 25%;
+}
+.D8 img{
+    width: 100%;
+    height: auto;
+}
+.D1 img{
+    width: 15%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.boite1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.boite2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.titre{
+    text-align: center;
+    font-size: x-large;
+}
+.titre{
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    margin-top: 50px;
+}
+.y2{
+    font-size: x-large;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#conteneurA1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.A2{
+    width: 75%;
+    float: right;
+}
+header{
+    width: 100%;
+    margin: 0auto;
+    
+    position: fixed;
+    top: 0px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+}
+
+header ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+
+}
+
+header a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+.A2 ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+   
+}
+
+.deroulant > a::after{
+    content: "▼";
+    font-size: 12px;
+}
+
+.A3{
+    margin-top: 200px;
+    width: 50%;
+    text-align: center;
+}
+
+.A4{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+
+#conteneurA2{
+    display: flex;
+    background-color: rgba(0, 69, 124,255);
+}
+
+.styled {
+    border: 0;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white
+ 
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.A5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#conteneurA3{
+    display: flex;
+}
+
+.A6{
+    width: 33%;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: solid;
+    text-align: center;
+}
+
+.A7{
+    width: 33%;
+    border: solid;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.A8{
+    width: 33%;
+    border: solid;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.A9{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#conteneurA4{
+    
+    text-align: center;
+}
+
+
+.A10{
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+#conteneurA5{
+    background-color: orange;
+    width: 100%;
+}
+.A11{
+    text-align: center;
+}
+
+.video{
+    
+    float: left;
+    background-color: orange;
+    width: 50%;
+}
+
+#conteneurA6{
+    display: flex;
+    background-color: orange;
+    
+}
+
+
+
+
+.D3{
+    border: groove 10px rgb(136, 118, 118);
+    padding: 0.2em;
+    width: 50%;
+    border-radius: 20%;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bigboxD1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D5 img{
+    border-radius: 25%;
+    max-width: 100%;
+    height: auto;
+}
+.bigboxD2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D6{
+    border: groove 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+    resize: both;
+    overflow: auto;
+    height: auto;
+}
+.bigboxD3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.D7{
+    border: hidden 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 50%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+}
+.D7 img{
+    width: 100%;
+    height: auto;
+}
+.D2{
+    width: auto;
+}
+.D2 img{
+    width: 100%;
+    height: auto;
+}
+.bigboxD4{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.D9{
+    border: hidden 5px rgb(209, 48, 48);
+    padding: 0.5em;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+    float:left;
+}
+footer{
+    background-image: url(23.jpg);
+    
+}
+.D8{
+    float: left;
+    width: 25%;
+}
+.D8 img{
+    width: 100%;
+    height: auto;
+}
+.D1 img{
+    width: 15%;
+    height: auto;
+    margin-left: 25%;
+}
+.boite1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.boite2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.titre{
+    text-align: center;
+    font-size: x-large;
+}
+.titre{
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+}
+#conteneurF1 {
+
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    align-self: center;
+   }
+
+.F1{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: left;
+    
+}
+
+.F2{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 0px;
+    
+}
+
+
+
+
+#conteneurF3 {
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: black;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+.F3{
+    width: 33%;
+    border: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+.F4{
+    width: 33%;
+    border: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+.F5{
+    width: 33%;
+    border: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+.F6 img{
+
+    max-width: 10%;
+  height: auto;
+}
+
+#conteneurB1 {
+    align-self: center;
+}
+.boiteB1 {
+display:flex ;
+flex-wrap: wrap;
+}
+.boiteB2 {
+height: auto;
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+font-size: 24px;
+}
+.boiteB2 img {
+    height: 10px;
+    width: 50%;
+}
+.boiteB3 {
+height: auto;
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+font-size: 24px;
+}
+input {
+    display: block;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: white;
+    margin: 2px;
+    border-radius: 1px;
+}
+.boiteB4 {
+text-align: center;
+}
+.gras {
+    font-weight: bold;
+}
+#conteneurB2 {
+display: flex;
+justify-content: space-between;
+}
+.boiteB5 {
+box-sizing: content-box;
+width: 50%;
+border: 2px solid;
+padding: 5px;
+background-color: whitesmoke;
+}
+.boiteB6 {
+    box-sizing: content-box;
+    width: 50%;
+    border: 2px solid;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+section {
+    text-align: center;
+}
+.merde {
+    text-align: center;
+}
+.photo1 {
+    width: auto;
+    height: 10px;
+}
+.C1{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform:uppercase;
+    border-style: solid;
+    background-color: white;
+    border-color: orange;
+    border-width: 2ex 1.25ex 0.5ex;
+}
+.debut{
+    font-size: 25px;
+    font-style: oblique;
+}
+.text{
+    color: black;
+    text-align: center;
+}
+.text2{
+    font-size: 17px;
+    font-variant: small-caps ;
+}
+.video{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#conteneurC{
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#conteneurC2{
+    display:flex;
+    justify-content: space-between; 
+}
+.contentebox{
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 20%;
+    border: dashed orange 10px;
+    padding: 5px;
+    background-color: white;
+}
+.contentebox2{
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 20%;
+    border: dashed orange 10px;
+    padding: 5px;
+    background-color: white;
+}
+.contentebox3{
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 20%;
+    border: dashed orange 10px;
+    padding: 5px;
+    background-color: white;
+}
+.inputC{
+    background-color: white;
+    color: black;
+    border: 8px solid #4CAF50; /* Green */
+}
+.partenair{
+    text-align: center;
+}
+.partenair2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: overline orange;
+}
+t1{color: navy;}
+    .e3{width: 30%;
+        float:left;
+        height: 50px;
+    border:2px; 
+}
+
+    ht1{color:navy;
+        text-align: center;}
+     
+ 
+     .e1{float:left ;
+         margin-bottom:5px;
+         margin: top 5px;
+         width: 30%;
+         height: 200px;
+         border: 1px solid navy;
+         overflow:hidden ;
+         
+         
+     }
+     .e2{float:right;
+         margin-bottom: 5px;
+         width:69% ;
+         height:200px ;
+         border:1px solid white;
+         overflow:hidden ;
+ 
+     }
